@@ -1,4 +1,4 @@
-<<Merge KaoZai>> dev note
+Merge KaoZai dev note
 
 ## 2021/2/28
 - Make 1080*1920 as design aspect.
