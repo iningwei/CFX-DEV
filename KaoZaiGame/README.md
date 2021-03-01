@@ -5,4 +5,10 @@ Merge KaoZai dev note
 - Select target KaoZai protrait.
 - Screen auto fit rule.
 - Use Unity+UGUI as primqary dev tools.
-- Select bmfont to implement art-chars.
+- Use bmfont to implement art-chars.
+
+
+
+## 2021/3/1
+
+- Implement my [ZGameFramework](https://github.com/iningwei/ZGameFramework) to this project.
