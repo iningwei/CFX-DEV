@@ -12,3 +12,8 @@ Merge KaoZai dev note
 ## 2021/3/1
 
 - Implement my [ZGameFramework](https://github.com/iningwei/ZGameFramework) to this project.
+
+## 2021/3/2
+- Slice ConFi Demon photo to 11 levels.
+- Implement 11 level ball prefabs.
+- Core game logic.
