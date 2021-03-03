@@ -105,25 +105,25 @@ public class GameLogic
         //////sizeDic.Add(10, 308 / 100f * scaleRatio);
         //////sizeDic.Add(11, 408 / 100f * scaleRatio);
 
-        sizeDic.Add(1, 64 / 100f * scaleRatio);
+        sizeDic.Add(1, 52 / 100f * scaleRatio);
         sizeDic.Add(2, 80 / 100f * scaleRatio);
         sizeDic.Add(3, 110 / 100f * scaleRatio);
-        sizeDic.Add(4, 120 / 100f * scaleRatio);
-        sizeDic.Add(5, 150 / 100f * scaleRatio);///
-        sizeDic.Add(6, 190 / 100f * scaleRatio);
-        sizeDic.Add(7, 200 / 100f * scaleRatio);
-        sizeDic.Add(8, 284 / 100f * scaleRatio);
-        sizeDic.Add(9, 320 / 100f * scaleRatio);
-        sizeDic.Add(10, 350 / 100f * scaleRatio);
+        sizeDic.Add(4, 126 / 100f * scaleRatio);
+        sizeDic.Add(5, 153 / 100f * scaleRatio);///
+        sizeDic.Add(6, 195 / 100f * scaleRatio);
+        sizeDic.Add(7, 204 / 100f * scaleRatio);
+        sizeDic.Add(8, 288 / 100f * scaleRatio);
+        sizeDic.Add(9, 324 / 100f * scaleRatio);
+        sizeDic.Add(10, 352 / 100f * scaleRatio);
         sizeDic.Add(11, 449 / 100f * scaleRatio);
 
 
-
+        
         //////nextShowYPos = Screen.height / 2f / 100f - 153 / 2f / 100f * scaleRatio - 0.15f;
         //////warningLineYPos = Screen.height / 2f / 100f - 153f / 100f * scaleRatio - 0.15f;
 
-        nextShowYPos = Screen.height / 2f / 100f - 150f / 2f / 100f * scaleRatio - 0.15f;
-        warningLineYPos = Screen.height / 2f / 100f - 150f / 100f * scaleRatio - 0.15f;
+        nextShowYPos = Screen.height / 2f / 100f - 153f / 2f / 100f * scaleRatio - 0.15f;
+        warningLineYPos = Screen.height / 2f / 100f - 153f / 100f * scaleRatio - 0.15f;
 
 
 
