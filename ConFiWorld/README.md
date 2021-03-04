@@ -20,3 +20,8 @@
 ### 2021/3/3
 - Reoutput demo ui.
 - Tidy project and rename it to ConFiWorld.
+
+### 2021/3/4
+- Remove some unused res.
+- Fixed a big merge visible bug.
+- Success export apk.
