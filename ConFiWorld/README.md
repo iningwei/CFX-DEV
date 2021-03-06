@@ -28,4 +28,4 @@
 
 ### 2021/3/5-2021/3/6
 - All game logic finished.
-- Beta version apk test on different machines.
+- V1.0.1-build-1,[beta version apk](https://github.com/iningwei/CFX-DEV/blob/master/ConFiWorld/MergeConFi-v1.0.1-build1-beta.apk) test on different machines.
