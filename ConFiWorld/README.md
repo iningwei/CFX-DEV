@@ -25,3 +25,7 @@
 - Remove some unused res.
 - Fixed a big merge visible bug.
 - Success export apk.
+
+### 2021/3/5-2021/3/6
+- All game logic finished.
+- Beta version apk test on different machines.

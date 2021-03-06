@@ -71,50 +71,53 @@ public class GameOverWindow : MonoBehaviour
 
     public void FlyCoinsAndHide()
     {
-        this.replayBtn.gameObject.SetActive(false);
-        Vector3 t_pos1 = coinIconTrans.transform.TransformPoint(Vector3.zero);
-        Vector3 t_pos2 = this.root.InverseTransformPoint(t_pos1);
+        //////this.replayBtn.gameObject.SetActive(false);
+        //////Vector3 t_pos1 = coinIconTrans.transform.TransformPoint(Vector3.zero);
+        //////Vector3 t_pos2 = this.root.InverseTransformPoint(t_pos1);
 
-        for (int i = 0; i < 10; i++)
-        {
-            int tmpI = i;
-            GameObject coinObj = GameObject.Instantiate(coinPrefab) as GameObject;
-            coinObj.transform.SetParent(this.root);
-            coinObj.transform.localScale = Vector3.one;
-            coinObj.SetActive(true);
+        //////for (int i = 0; i < 10; i++)
+        //////{
+        //////    int tmpI = i;
+        //////    GameObject coinObj = GameObject.Instantiate(coinPrefab) as GameObject;
+        //////    coinObj.transform.SetParent(this.root);
+        //////    coinObj.transform.localScale = Vector3.one;
+        //////    coinObj.SetActive(true);
 
-            Vector3 pos1 = scoreTxt.transform.TransformPoint(Vector3.zero);
-            Vector3 pos2 = this.root.InverseTransformPoint(pos1);
-            coinObj.transform.localPosition = pos2;
+        //////    Vector3 pos1 = scoreTxt.transform.TransformPoint(Vector3.zero);
+        //////    Vector3 pos2 = this.root.InverseTransformPoint(pos1);
+        //////    coinObj.transform.localPosition = pos2;
 
-            TimerTween.Delay(i * 0.1f, () =>
-            {
-                TimerTween.Value(0, 1, 0.5f, (v) =>
-                {
-                    coinObj.transform.localPosition = pos2 + v * (t_pos2 - pos2);
-                }, () =>
-                {
-                    GameObject.DestroyImmediate(coinObj);
-                    if (tmpI == 9)
-                    {
-                        this.Hide();
-                        GameCenter.Instance.mainWindow.Show();
-                        EventDispatcher.Instance.DispatchEvent(EventID.OnGameStart);
-                    }
-                }).Start();
-            }).Start();
-        }
+        //////    TimerTween.Delay(i * 0.1f, () =>
+        //////    {
+        //////        TimerTween.Value(0, 1, 0.5f, (v) =>
+        //////        {
+        //////            coinObj.transform.localPosition = pos2 + v * (t_pos2 - pos2);
+        //////        }, () =>
+        //////        {
+        //////            GameObject.DestroyImmediate(coinObj);
+        //////            if (tmpI == 9)
+        //////            {
+        //////                this.Hide();
+        //////                GameCenter.Instance.mainWindow.Show();
+        //////                EventDispatcher.Instance.DispatchEvent(EventID.OnGameStart);
+        //////            }
+        //////        }).Start();
+        //////    }).Start();
+        //////}
 
+        //////TimerTween.Value(0, 1, 1.3f, (v) =>
+        //////{
+        //////    this.totalScoreTxt.text = ((int)(curTotalScore + v * singleScore)).ToString();
+        //////    this.scoreTxt.text = ((int)(singleScore - v * singleScore)).ToString();
+        //////}, () =>
+        //////{
+        //////    this.totalScoreTxt.text = (curTotalScore + singleScore).ToString();
+        //////}).Start();
+        ///
 
-
-        TimerTween.Value(0, 1, 1.3f, (v) =>
-        {
-            this.totalScoreTxt.text = ((int)(curTotalScore + v * singleScore)).ToString();
-            this.scoreTxt.text = ((int)(singleScore - v * singleScore)).ToString();
-        }, () =>
-        {
-            this.totalScoreTxt.text = (curTotalScore + singleScore).ToString();
-        }).Start();
+        this.Hide();
+        GameCenter.Instance.mainWindow.Show();
+        EventDispatcher.Instance.DispatchEvent(EventID.OnGameStart);
     }
 
     private void onReplayBtnClicked()
