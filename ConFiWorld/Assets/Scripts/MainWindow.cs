@@ -14,13 +14,15 @@ public class MainWindow : MonoBehaviour
     public Text scoreTxt;
     [NonSerialized]
     public Text totalScoreTxt;
-
+    [NonSerialized]
+    public Text maxScoreTxt;
 
     void Start()
     {
         scoreTxt = root.Find("ScoreTxt").GetComponent<Text>();
         totalScoreTxt = root.Find("TotalScoreArea/TotalScoreTxt").GetComponent<Text>();
 
+        maxScoreTxt = root.Find("MaxScoreTxt").GetComponent<Text>();
 
         EventDispatcher.Instance.AddListener(EventID.OnScoreChange, onScoreChange);
     }
@@ -30,6 +32,8 @@ public class MainWindow : MonoBehaviour
         this.root.gameObject.SetActive(true);
         this.scoreTxt.text = "0";
         this.totalScoreTxt.text = Archive.Instance.GetTotalScore().ToString();
+
+        this.maxScoreTxt.text = Archive.Instance.GetMaxScore().ToString();
     }
     public void Hide()
     {
