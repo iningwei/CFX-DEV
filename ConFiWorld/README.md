@@ -29,3 +29,7 @@
 ### 2021/3/5-2021/3/6
 - All game logic finished.
 - V1.0.1-build-1,[beta version apk](https://github.com/iningwei/CFX-DEV/blob/master/ConFiWorld/MergeConFi-v1.0.1-build1-beta.apk) test on different machines.
+
+### 2021/5/26
+- Add best score shown when gaming.
+- Add meta files unignore by git.
