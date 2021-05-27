@@ -40,4 +40,4 @@
 
 [GitHub Download](https://raw.githubusercontent.com/iningwei/CFX-DEV/master/ConFiWorld/MergeConFi-v1.0.2-build2.apk)
 
-[BaiDuYun Download(Key：qnen)](https://pan.baidu.com/s/10_oKXLlnxCT1_jbViJEs8g)
+[BaiDuYun Download(Key：iv0z)](https://pan.baidu.com/s/1HUWL2T7D0QJGwMCoC5_U9Q)
