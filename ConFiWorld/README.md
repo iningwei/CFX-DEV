@@ -33,3 +33,7 @@
 ### 2021/5/26
 - Add best score shown when gaming.
 - Add meta files unignore by git.
+
+### 2021/5/27
+- Use new game icon elements and reset size
+- V1.0.2-build2

@@ -107,15 +107,15 @@ public class GameLogic
 
         sizeDic.Add(1, 52 / 100f * scaleRatio);
         sizeDic.Add(2, 80 / 100f * scaleRatio);
-        sizeDic.Add(3, 110 / 100f * scaleRatio);
-        sizeDic.Add(4, 126 / 100f * scaleRatio);
-        sizeDic.Add(5, 153 / 100f * scaleRatio);///
-        sizeDic.Add(6, 195 / 100f * scaleRatio);
-        sizeDic.Add(7, 204 / 100f * scaleRatio);
-        sizeDic.Add(8, 288 / 100f * scaleRatio);
-        sizeDic.Add(9, 324 / 100f * scaleRatio);
-        sizeDic.Add(10, 352 / 100f * scaleRatio);
-        sizeDic.Add(11, 449 / 100f * scaleRatio);
+        sizeDic.Add(3, 108 / 100f * scaleRatio);
+        sizeDic.Add(4, 119 / 100f * scaleRatio);
+        sizeDic.Add(5, 153 / 100f * scaleRatio);/////
+        sizeDic.Add(6, 183 / 100f * scaleRatio);
+        sizeDic.Add(7, 193 / 100f * scaleRatio);
+        sizeDic.Add(8, 258 / 100f * scaleRatio);
+        sizeDic.Add(9, 308 / 100f * scaleRatio);
+        sizeDic.Add(10, 308 / 100f * scaleRatio);
+        sizeDic.Add(11, 408 / 100f * scaleRatio);
 
 
         
