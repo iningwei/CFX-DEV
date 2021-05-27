@@ -36,4 +36,7 @@
 
 ### 2021/5/27
 - Use new game icon elements and reset size
-- Output android apk:V1.0.2-build2,[GitHub Download](https://raw.githubusercontent.com/iningwei/CFX-DEV/master/ConFiWorld/MergeConFi-v1.0.2-build2.apk),[BaiDu网盘(提取码：qnen)](https://pan.baidu.com/s/10_oKXLlnxCT1_jbViJEs8g)
+- Output android apk:V1.0.2-build2
+
+[GitHub Download](https://raw.githubusercontent.com/iningwei/CFX-DEV/master/ConFiWorld/MergeConFi-v1.0.2-build2.apk)
+[BaiDuYun Download(Key：qnen)](https://pan.baidu.com/s/10_oKXLlnxCT1_jbViJEs8g)
